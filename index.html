@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .email-signup {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .email-input {
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 300px;
+            margin-right: 10px;
+        }
+        .get-started-btn {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: red;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .get-started-btn:hover {
+            background-color: darkred;
+        }
+        .logo img {
+            height: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="background"></div>
+    <div class="overlay"></div>
+    <div class="topnav">
+        <div class="logo">
+           <h1>NETFLIX</h1>
+        </div>
+        <div class="right">
+            <select class="language-selector">
+                <option>English</option>
+                <option>हिन्दी</option>
+            </select>
+            <a href="signin.html" class="signin-btn">Sign In</a>
+        </div>
+    </div>
+    <div class="content">
+        <h1>Unlimited movies, TV shows, and more.</h1>
+        <p>Starts at rs 149. Cancel at any time.</p>
+        <div class="text">
+            Ready to watch? Enter your email to create or restart your membership.
+        </div>
+        <div class="email-signup">
+            <input type="email" placeholder="Enter your email" class="email-input">
+            <button class="get-started-btn">Get Started</button>
+        </div>
+    </div>
+</body>
+</html>
